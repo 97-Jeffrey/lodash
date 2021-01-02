@@ -1,6 +1,6 @@
 const _ = require('lodash');
 
-const arr= _.chunk([1,2,3,4,5,6,7,8,9,10],2)
+const arr= _.chunk([1,2,3,4,5,6,7,8,9,10],3)
 console.log('this is nested arr', arr)
 
 const truthyArr =_.compact([undefined ,0, null, 1, false, 2, '', 3,5,6,0, "hahs", 0])
